@@ -8,7 +8,7 @@ public class App {
         do {
             try {
                 base = Integer.parseInt(System.console().readLine("Introduzca la base: "));
-                exponente = Integer.parseInt(System.console().readLine("Introduzca el exponente: "));
+                exponente = Integer.parseInt(System.console().readLine("Introduzca el exponente maximo: "));
                 correcto = true;
             } catch (NumberFormatException e) {
                 System.out.println("Debes introducir un numero entero");
